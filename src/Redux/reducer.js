@@ -6,7 +6,6 @@ const initState = {
 }
 
 export const mailReducer = (store = initState, { type, payload }) => {
-
     switch (type) {
         case MAIL_DATA:
             return { ...store, mailData: payload }
